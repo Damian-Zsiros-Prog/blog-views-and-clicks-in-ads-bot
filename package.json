@@ -7,7 +7,7 @@
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {
-    "playwright-chromiun": "1.16.1"
+    "playwright": "1.16.1"
   },
   "devDependencies": {}
 }
