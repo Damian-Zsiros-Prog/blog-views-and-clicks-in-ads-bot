@@ -4,7 +4,7 @@ let urlPrincipalPage = 'https://damianzg.blogspot.com/'
 
 async function getHrefsPost(pageUrl) {
   const browser = await chromium.launch({
-    headless: false,
+    headless: true,
     timeout: 120000,
   })
   const page = await browser.newPage()
@@ -23,7 +23,7 @@ async function getHrefsPost(pageUrl) {
 
 async function resolveAdsPrincipalPage() {
   const browser = await chromium.launch({
-    headless: false,
+    headless: true,
     timeout: 120000,
   })
   const page = await browser.newPage()
@@ -42,7 +42,7 @@ module.exports = async function (context, myTimer) {
   let numPost = 0
   for (let href of hrefPostsPages) {
     const browser = await chromium.launch({
-      headless: false,
+      headless: true,
       timeout: 240000,
     })
     const page = await browser.newPage()
