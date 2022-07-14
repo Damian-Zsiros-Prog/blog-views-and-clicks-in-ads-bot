@@ -1,17 +1,11 @@
 {
-  "name": "blog-views-and-clicks-in-ads-bot",
+  "name": "adfly-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "type": "module",
   "scripts": {
-    "bot-blog": "node src/index.js"
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "playwright": "^1.23.3",
-    "standard": "^17.0.0"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
