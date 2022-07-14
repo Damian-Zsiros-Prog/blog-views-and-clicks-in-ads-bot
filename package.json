@@ -2,12 +2,12 @@
   "name": "adfly-bot",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "scripts": {
     "start": "func start",
+    "dev": "node src",
     "test": "echo \"No tests yet...\""
   },
-  "dependencies": {
-    "playwright": "1.16.1"
-  },
+  "dependencies": {},
   "devDependencies": {}
 }
