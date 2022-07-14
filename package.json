@@ -2,10 +2,8 @@
   "name": "adfly-bot",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
   "scripts": {
     "start": "func start",
-    "dev": "node src",
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {},
