@@ -6,6 +6,8 @@
     "start": "func start",
     "test": "echo \"No tests yet...\""
   },
-  "dependencies": {},
+  "dependencies": {
+    "playwright-chromiun": "1.16.1"
+  },
   "devDependencies": {}
 }
